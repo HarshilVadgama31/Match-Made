@@ -175,8 +175,9 @@ function HomePage() {
                 <input
                   type="tel"
                   id="phone"
-                  className=" focus:border-button_dark focus:border-b-2 focus:border-x-0 focus:border-t-0 bg-card_light border-b-2 border-bg_dark w-full h-10 text-font_light dark:bg-card_dark dark:border-bg_light dark:text-font_dark dark:focus:border-button_light"
-                  placeholder="123-45-678"
+                  // className=" focus:border-button_dark focus:border-b-2 focus:border-x-0 focus:border-t-0 bg-card_light border-b-2 border-bg_dark w-full h-10 text-font_light dark:bg-card_dark dark:border-bg_light dark:text-font_dark dark:focus:border-button_light"
+                  className=" focus:outline-none focus:border-x-0 bg-card_light border-b-2 border-bg_dark w-full h-10 text-font_light dark:bg-card_dark dark:border-bg_light dark:text-font_dark dark:focus:border-button_light"
+                  placeholder="123-4545-678"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                   required
                 />
