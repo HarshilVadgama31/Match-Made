@@ -1,0 +1,10 @@
+#myDatetimePicker::-webkit-calendar-picker-indicator {
+  filter: invert(9);
+  
+  /* Other styling properties you might want to apply */
+}
+
+.dark #myDatetimePicker::-webkit-calendar-picker-indicator {
+  filter: invert(0); /* Change the color using invert filter */
+  /* Other styling properties you might want to apply */
+}

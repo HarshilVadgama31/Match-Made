@@ -1,6 +1,11 @@
 import "./App.css";
-import HomePage from "./pages/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import Register from "./pages/Register";
+// import CheckboxChip from "./components/CheckboxChip";
+import HomePage from "./pages/HomePage";
+// import InputSearch from "./components/InputSearch";
+// import HobbyDialog from "./components/HobbyDialog";
+// import Register from "./pages/Register";
 
 function App() {
   return (
